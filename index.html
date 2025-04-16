@@ -1,220 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <title>Ayushi Nirmal | AI Researcher & Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayushi Nirmal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">    
-</head>
-
-<body class="bg-gray-100 text-gray-800">
-
-    <!-- Navigation -->
-    <nav class="bg-blue-500 p-4 text-white text-right">
-        <div class="container mx-auto">
-            <!-- <h1 class="text-2xl font-semibold">Ayushi Nirmal</h1>
-            <p class="text-sm">Software Engineer | Java Backend Developer</p> -->
-            <div class="flex justify-end ms-4">
-                <a href="#home" class="text-lg font-bold hover:text-gray-300 mx-8">Home</a>
-                <a href="#about" class="text-lg font-bold hover:text-gray-300 mx-8">About Me</a>
-                <a href="#resume" class="text-lg font-bold hover:text-gray-300 mx-8">Resume</a>
-                <a href="#projects" class="text-lg font-bold hover:text-gray-300 mx-8">Projects</a>
-                <a href="#skills" class="text-lg font-bold hover:text-gray-300 mx-8">Skills</a>
-                <a href="#publications" class="text-lg font-bold hover:text-gray-300 mx-8">Publications</a>
-                <a href="#contact" class="text-lg font-bold hover:text-gray-300 mx-8">Contact Me</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="bg-gray-800 text-white h-64 flex items-center justify-center">
-        <div class="text-center">
-            <h2 class="text-4xl font-semibold mb-4">Hello, I'm Ayushi Nirmal</h2>
-            <p class="text-lg"> AI / ML Engineer &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Data Enthusiast &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Software Engineer</p>
-        </div>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#home">Ayushi Nirmal</a>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#resume" class="nav-link">Experience</a></li>
+            <li><a href="#research" class="nav-link">Research</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">ABOUT ME</h2>
-        <div class="text-center mb-4"><strong><em>An intuitive big picture thinker with an appetite for technical detail.</em></strong></div>
-        <!-- Your Picture -->
-        <img src="AyushiNirmal_headshot.png" alt="Ayushi" class="rounded-full h-44 w-44 mx-auto mb-12">
-        <p class="text-gray-700">
-            I am a passionate software engineer specialized in Java backend development. My graduate education at Arizona State University expanded strengths in designing scalable systems into the intersecting frontiers of machine learning and natural language processing. 
-            With 3 years of hands-on experience working as a Software Engineer at Citicorp Services India Private Limited at Pune, I have worked on various projects, contributing to the development of robust and scalable solutions.
-            As a skilled backend developer turned passionate data science specialist, I bridge technical expertise with analytical curiosity. My 3+ years crafting robust Java and Spring Boot platforms strengthened systematic thinking and a drive for innovation - qualities I now seek to leverage solving complex data challenges.
-            I thrive with my contribution to empowering organizations extract meaningful signals from noise across heterogeneous data, and unlocking actionable direction through interpretable patterns.
-            I am a proactive computer science enthusiast who found their niche in data science. I am eager to bring this fusion of systems architecting, analytical curiosity, collaborative execution across talented teams, and equal commitment to meaningful change through data and technology excites me.
-        </p>
-        <div class="mt-8 flex justify-center space-x-8">
-            <a href="https://www.linkedin.com/in/ayushi-nirmal-b35900136/" target="_blank" class="hover:underline">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" class="h-12 w-12">
-            </a>
-            <a href="https://github.com/Ayushi1722" target="_blank" class="hover:underline">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" class="h-12 w-12">
-            </a>
-            <a href="https://twitter.com/ayushi_nirmal" target="_blank" class="hover:underline">
-                <img src="https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg" alt="Twitter Logo" class="h-12 w-12">
-            </a>
+    <section id="home" class="hero">
+      <div id="tsparticles"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Ayushi Nirmal</h1>
+            <div class="hero-subtitle-wrapper">
+              <h2>AI Researcher & Engineer</h2>
+              <span class="subtitle-highlight"></span>
+            </div>
+            <div class="hero-tagline-wrapper">
+              <p class="hero-tagline">
+                <span class="tagline-icon">🚀</span>
+                <span class="tagline-item">Built 0→1 GenAI Systems</span>
+                <span class="tagline-separator">•</span>
+                <span class="tagline-item">NAACL'24 First Author</span>
+              </p>
+            </div>
+            
+            <div class="hero-domains-wrapper">
+              <p class="hero-domains">
+                <span class="domain-item">LLMs & Agents</span>
+                <span class="domain-separator">•</span>
+                <span class="domain-item">AI Safety</span>
+              </p>
+            </div>
+            <br>
+            
+            <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Bay Area, CA</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-frame">
+              <img src="AyushiNirmal_headshot.png" alt="Ayushi Nirmal" />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ayushi-nirmal/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Ayushi1722" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?user=9i0E2LQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
+      </div>
     </section>
 
-
-
-    <!-- Resume Section -->
-    <section id="resume" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">RESUME</h2>
-        <a href="Ayushi_Nirmal_Resume.pdf" download="Ayushi_Nirmal_Resume.pdf" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 inline-block">Download Resume</a>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">PUBLICATIONS</h2>
-        <ul class="list-disc list-inside">
-            <!-- Replace 'YOUR_GOOGLE_SCHOLAR_LINK' with the actual links to your publications on Google Scholar -->
-            <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9i0E2LQAAAAJ&citation_for_view=9i0E2LQAAAAJ:u5HHmVD_uO8C" target="_blank" class="text-blue-500 hover:underline">Disinformation Detection: An Evolving Challenge in the age of LLMs(Accepted at SDM 24)</a></li>
-            <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9i0E2LQAAAAJ&citation_for_view=9i0E2LQAAAAJ:d1gkVwhDpl0C" target="_blank" class="text-blue-500 hover:underline">User Migration across Multiple Social Media Platforms(Accepted at SDM 24)</a></li>
-            <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9i0E2LQAAAAJ&citation_for_view=9i0E2LQAAAAJ:u-x6o8ySG0sC" target="_blank" class="text-blue-500 hover:underline">SocioHub: An Interactive Tool for Cross-Platform Social Media Data Collection(Accepted at SBP 23)</a></li>
-        </ul>
-    </section>
-
-
-    <!-- Skills Section -->
-   
-    <section id="skills" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">SKILLS</h2>
-
-        <!-- Programming Languages & Technologies -->
-        <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Programming Languages & Technologies</h3>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Java</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">C++</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">C</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Python</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">R</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">HTML</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Javascript</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Kafka</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">MATLAB</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">OOP</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Machine Learning</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Data Science</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">NLP</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Software Engineering</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Data Analysis</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Software Design</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">AI</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Web Applications</span>
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="intro-highlight">
+              <div class="intro-icon">🚀</div>
+              <p>AI engineer passionate about building 0→1 production-grade GenAI systems that solve real-world problems.</p>
             </div>
-        </div>
-
-        <!-- Architecture and Framework -->
-        <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Architecture and Framework</h3>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Hibernate</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">JPA</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">API Documentation</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">MVC</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Bitbucket</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Jenkins</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Code Review</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">IP Solutions</span>
-            </div>
-        </div>
-
-        <!-- Databases, and Tools -->
-        <div class="mb-4">
-            <h3 class="text-xl font-semibold mb-2">Databases, and Tools</h3>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">SQL</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">MongoDB</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Git</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Microservices</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">R Studio</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Kubernetes</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Docker</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Postman</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">AWS</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">Eclipse</span>
-                <span class="bg-green-500 text-white py-1 px-3 rounded-full">IntelliJ</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">PROJECTS</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Project 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-8">Understanding the Impact of Ideological Bias on NLP Tasks</h3>
-                <p class="text-gray-700 mb-8">This project investigates the impact of ideological bias on Natural Language Processing (NLP) tasks, particularly in political news. Using word embedding techniques and language models like Word2Vec, GLoVe, ELMo, and BERT, the project aims to understand how biased news stories affect NLP tasks, focusing on topic classification. Information is gathered from major media's official Twitter accounts across the political spectrum (CNN, Fox News, Reuters), and a topic classification experiment is designed. By training state-of-the-art text classification models on diverse datasets and evaluating accuracy, the research contributes to our understanding of ideological bias effects on NLP models.</p>
-                <a href="https://github.com/Ayushi1722/Ideological-bias-on-NLP-Tasks" class="text-blue-500 font-semibold hover:underline">View Project</a>
-            </div>
-            <!-- Project 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-8">Survey for Web Scraping Tools</h3>
-                <p class="text-gray-700 mb-8">In response to the burgeoning importance of data in business operations, this project focuses on the evaluation of web scraping tools for extracting valuable insights from diverse online sources. I played a pivotal role in systematically surveying and analyzing various web scraping tools, considering metrics such as speed, accuracy, ease of use, and cost. The project aims to provide a comprehensive understanding of the advantages and disadvantages of different tools, offering valuable recommendations for businesses seeking effective data extraction solutions.</p>
-                <a href="https://github.com/Ayushi1722/SWMProject" class="text-blue-500 font-semibold hover:underline">View Project</a>
-            </div>
-            <!-- Project 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-8">SocioHub: An Interactive Tool for Cross-Platform Social Media Data Collection</h3>
-                <p class="text-gray-700 mb-8">This project explores cross-platform user behavior on social media platforms like Twitter, Instagram, and Mastodon. I developed the tool, SocioHub, which consolidates data to provide insights into user preferences and expectations. It aids researchers in understanding content consumption patterns, enhancing communication, and tailoring platform-specific strategies.</p>
-                <a href="https://github.com/Ayushi1722/SocioHub" class="text-blue-500 font-semibold hover:underline">View Project</a>
-            </div>
-            <!-- Project 4 -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-8">Disinformation Detection: An Evolving Challenge in the Age of LLMs</h3>
-                <p class="text-gray-700 mb-8">This project addresses the growing threat of disinformation using generative Large Language Models (LLMs) like ChatGPT. It investigates the effectiveness of current detection techniques against LLM-generated misleading content, explores the potential of using LLMs as a defense mechanism, and proposes novel approaches to counter this evolving threat.</p>
-                <a href="https://github.com/Ayushi1722/FakeNews_ChatGPT" class="text-blue-500 font-semibold hover:underline">View Project</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container mx-auto mt-20">
-        <h2 class="text-2xl font-semibold mb-8">Contact Me</h2>
-        <p class="text-gray-700">Feel free to reach out to me via email at <a href="mailto:anirmal1@asu.edu" class="text-blue-500">ayushinirmal2@gmail.com</a>.</p>
-
-        <!-- <form class="mt-6" action="contact.php" method="post">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                    <label for="name" class="block text-sm font-medium text-gray-600">Your Name</label>
-                    <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded-md" required>
+            
+            <p class="career-summary">With expertise in LLMs, RAG, and NLP, I'm seeking <span class="highlight-role">Research/Applied Scientist</span>, <span class="highlight-role">MLE</span>, and <span class="highlight-role">Agentic AI</span> roles where I can leverage my technical skills in model fine-tuning, MCP, and system design to build innovative AI solutions that deliver measurable impact.</p>
+            
+            <div class="about-grid">
+              <div class="about-card">
+                <div class="card-header">
+                  <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                  <h3>Industry Experience</h3>
                 </div>
-                <div>
-                    <label for="email" class="block text-sm font-medium text-gray-600">Your Email</label>
-                    <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md" required>
+                <p>At <span class="highlight-company">Bear River Associates</span>, leading end-to-end development of LLM-powered applications—from RAG systems to OCR automation—delivering measurable impact in customer support. ⚡️</p>
+              </div>
+              
+              <div class="about-card">
+                <div class="card-header">
+                  <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                  <h3>Research Focus</h3>
                 </div>
+                <p>At <span class="highlight-company">ASU</span>, led research on LLM robustness, interpretability, and safety in hate speech detection and content moderation.</p>
+              </div>
             </div>
-            <div class="mt-4">
-                <label for="message" class="block text-sm font-medium text-gray-600">Your Message</label>
-                <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md" required></textarea>
+            
+            <p class="publication-highlight">📚 First-author papers at <span class="highlight-conference">NAACL 2024</span> and <span class="highlight-conference">SBP 2024</span>, and co-authored paper at <span class="highlight-conference">SDM 2024</span>—advancing LLM alignment, debugging, and trustworthy GenAI deployment.</p>
+          </div>
+          
+          <div class="skills">
+            <h3>Technical Skills</h3>
+            <div class="skill-categories">
+              <div class="skill-category">
+                <h4>AI/ML</h4>
+                <ul>
+                  <li>Generative AI & LLM Fine-tuning</li>
+                  <li>Natural Language Processing</li>
+                  <li>Information Retrieval & RAG</li>
+                  <li>Intent Classification</li>
+                  <li>Entity Recognition</li>
+                  <li>LangChain & LlamaIndex</li>
+                  <li>Hugging Face</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Programming</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>C++</li>
+                  <li>R</li>
+                  <li>MATLAB</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Frameworks & Tools</h4>
+                <ul>
+                  <li>PyTorch & Pandas</li>
+                  <li>Spark & Hadoop</li>
+                  <li>Kubernetes & Docker</li>
+                  <li>AWS</li>
+                  <li>SQL & MongoDB</li>
+                  <li>Spring Boot & Microservices</li>
+                </ul>
+              </div>
             </div>
-
-            <div class="mt-4">
-                <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Send Message</button>
-            </div>
-        </form> -->
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white p-4 mt-8">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Ayushi Nirmal. All rights reserved.</p>
+    <section id="resume" class="resume">
+      <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+        <div class="resume-content">
+          <div class="resume-column">
+            <h3>Professional Experience</h3>
+            
+            <div class="resume-item">
+              <h4>AI Developer</h4>
+              <div class="resume-meta">
+                <p class="resume-place">Bear River Associates, Oakland, CA</p>
+                <p class="resume-period">June 2024 - Present</p>
+              </div>
+              <ul>
+                <li>Led end-to-end development of GenAI solutions, from architecture to MLOps</li>
+                <li>Built GPT-4 powered RAG system with LangChain, reducing response time by 40%</li>
+                <li>Designed real-time Slack bot with sub-100ms latency for delivery updates</li>
+                <li>Created OCR pipeline with Fast R-CNN & YOLOv8, achieving 85% accuracy</li>
+              </ul>
+            </div>
+            
+            <div class="resume-item">
+              <h4>Graduate Researcher</h4>
+              <div class="resume-meta">
+                <p class="resume-place">DMML, Arizona State University</p>
+                <p class="resume-period">January 2023 - May 2024</p>
+              </div>
+              <ul>
+                <li>Evaluated ideological bias in political content using SVM, LR, and BERT</li>
+                <li>Analyzed vaccine misinfo using Tweepy, Pandas, and NetworkX</li>
+                <li>Developed red teaming framework for LLM safety evaluation</li>
+                <li>Published at NAACL, SBP, and SDM conferences</li>
+              </ul>
+            </div>
+            
+            <div class="resume-item">
+              <h4>Associate Software Developer</h4>
+              <div class="resume-meta">
+                <p class="resume-place">Citicorp Services India Pvt. Ltd.</p>
+                <p class="resume-period">July 2019 - July 2022</p>
+              </div>
+              <ul>
+                <li>Led backend development with Apache Kafka and Spring Boot</li>
+                <li>Built data pipelines for real-time financial risk analysis</li>
+                <li>Containerized services with Docker, reducing deployment time by 20%</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="resume-column">
+            <h3>Education</h3>
+            
+            <div class="resume-item">
+              <h4>Master of Science in Computer Science with Thesis</h4>
+              <div class="resume-meta">
+                <p class="resume-place">Arizona State University</p>
+                <p class="resume-period">2022 - 2024</p>
+              </div>
+              <p>Focus: Artificial Intelligence, Machine Learning, Natural Language Processing</p>
+            </div>
+            
+            <div class="resume-item">
+              <h4>Bachelor's Degree in Electronics and Communication</h4>
+              <div class="resume-meta">
+                <p class="resume-place">IIIT, Allahabad</p>
+                <p class="resume-period">2015 - 2019</p>
+              </div>
+            </div>
+            
+            <h3 class="awards-title">Awards & Accomplishments</h3>
+            
+            <div class="resume-item">
+              <h4>NAACL 2024 Author</h4>
+              <p>Published at the NAACL 2024 conference, one of the top conferences in NLP.</p>
+            </div>
+            
+            <div class="resume-item">
+              <h4>Copper Award</h4>
+              <p>Recognized for contributions to Internal Audit team, driving a 10x increase in throughput.</p>
+            </div>
+            
+            <div class="resume-item">
+              <h4>Gold Award</h4>
+              <p>Reward from Simpliciti team for outstanding delivery of EMM products into production.</p>
+            </div>
+          </div>
         </div>
+        
+        <div class="resume-download">
+          <a href="Ayushi_Nirmal_Resume.pdf" class="btn btn-primary" target="_blank">
+            <i class="fas fa-download"></i> Download Full Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="research">
+      <div class="container">
+        <h2 class="section-title">Research & Publications</h2>
+        <div class="research-content">
+          <div class="research-item">
+            <h3>Towards Interpretable Hate Speech Detection using Large Language Model-extracted Rationales</h3>
+            <p>Developed an interpretable hate speech detector, SHIELD using LLM-extracted rationales crucial for transparent content moderation enhancing transparency and retaining performance across multiple benchmark datasets with minimal accuracy trade-off.</p>
+            <div class="research-meta">
+              <span>NAACL 2024</span>
+              <a href="https://arxiv.org/abs/2403.12403" target="_blank" class="research-link">View Paper <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          
+          <div class="research-item">
+            <h3>Disinformation Detection: An Evolving Challenge in the Age of LLMs</h3>
+            <p>Enhanced LLM-generated disinformation detection accuracy by 62.5% using advanced prompts, addressing critical detection failures and bias issues in existing models.</p>
+            <div class="research-meta">
+              <span>SDM 2024</span>
+              <a href="https://arxiv.org/abs/2309.15847" target="_blank" class="research-link">View Paper <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          
+          <div class="research-item">
+            <h3>Ideological Bias in Political Content</h3>
+            <p>Evaluated ideological bias in political content using SVM, Logistic Regression, and BERT on tweets from Left, Right, and Neutral sources, revealing a 28% accuracy drop across spectrums, emphasizing need for robust debiasing in NLP.</p>
+            <div class="research-meta">
+              <span>Arizona State University</span>
+              <span>2023-2024</span>
+            </div>
+          </div>
+          
+          <div class="research-item">
+            <h3>Red Teaming Framework for GenAI Systems</h3>
+            <p>Developed a red teaming framework to uncover safety risks in GenAI systems through simulated attacks like prompt injection and harmful completions; paired with RLHF-style feedback loops to iteratively improve model responses and strengthen safeguards for responsible deployment.</p>
+            <div class="research-meta">
+              <span>Arizona State University</span>
+              <span>2023-2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">AI Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400?text=StudySauce" alt="StudySauce Project" />
+            </div>
+            <div class="project-content">
+              <h3>StudySauce - AI-Powered Educational Platform</h3>
+              <p>Developed an advanced educational platform to revolutionize K-12 learning at the AI Agents Hackathon at GTC 2025. Combined AI-powered personalized video tutoring with dynamic learning paths to create individualized education journeys.</p>
+              <div class="project-tech">
+                <span>LangChain</span>
+                <span>Tavus AI</span>
+                <span>Google Gemini</span>
+                <span>RAG</span>
+              </div>
+              <div class="project-links">
+                <a href="https://lnkd.in/g6DSA_27" class="btn btn-small">Demo</a>
+                <a href="https://github.com/Ayushi1722/Study_Sauce" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400?text=miniGPT" alt="miniGPT Project" />
+            </div>
+            <div class="project-content">
+              <h3>miniGPT</h3>
+              <p>Reimplemented a GPT-style transformer from scratch in PyTorch, gaining hands-on experience with attention mechanisms, autoregressive token generation, and causal masking. Demonstrated end-to-end training on custom tokenized datasets to gain deep understanding of LLM internals.</p>
+              <div class="project-tech">
+                <span>PyTorch</span>
+                <span>Transformers</span>
+                <span>NLP</span>
+                <span>Deep Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400?text=RAG+System" alt="RAG System" />
+            </div>
+            <div class="project-content">
+              <h3>GPT-4 Powered RAG System</h3>
+              <p>Built and deployed a GPT-4 powered RAG system using LangChain, OpenAPI docs, SQL agents, and FAISS to automate customer support—reducing response time by 40% and cutting support queries by 30%.</p>
+              <div class="project-tech">
+                <span>LangChain</span>
+                <span>FAISS</span>
+                <span>GPT-4</span>
+                <span>AWS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x400?text=OCR+Pipeline" alt="OCR Pipeline" />
+            </div>
+            <div class="project-content">
+              <h3>Advanced OCR Pipeline</h3>
+              <p>Engineered high-accuracy OCR pipeline using Fast R-CNN, YOLOv8, Layout Parser, and Tesseract—boosting document processing accuracy to 85%, cutting runtime to 2 seconds, saving $100K annually by eliminating third-party OCR tools.</p>
+              <div class="project-tech">
+                <span>Fast R-CNN</span>
+                <span>YOLOv8</span>
+                <span>Tesseract</span>
+                <span>Computer Vision</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Demo</a>
+                <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>ayushinirmal2@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Bay Area, CA</p>
+            </div>
+            <div class="contact-social">
+              <a href="https://www.linkedin.com/in/ayushi-nirmal/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Ayushi1722" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+              <a href="https://scholar.google.com/citations?user=9i0E2LQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+          </div>
+          
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2024 Ayushi Nirmal. All Rights Reserved.</p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Experience</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
     </footer>
 
-    <!-- Optional: Add your JavaScript code here if needed -->
-
-</body>
-
+    <script>
+      // Mobile Navigation
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+      
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          hamburger.classList.remove('active');
+          navMenu.classList.remove('active');
+        });
+      });
+      
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        });
+      });
+      
+      // Active navigation highlighting
+      window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        let current = '';
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          
+          if (pageYOffset >= sectionTop - 100) {
+            current = section.getAttribute('id');
+          }
+        });
+        
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+          }
+        });
+      });
+      
+      // Form submission
+      const contactForm = document.getElementById('contact-form');
+      
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Here you would typically handle form submission via AJAX
+        // For now, just show a success message
+        const formData = new FormData(contactForm);
+        
+        // Reset the form
+        contactForm.reset();
+        
+        // Show success message (you could create a better UI for this)
+        alert('Thank you for your message! I will get back to you soon.');
+      });
+      
+      // tsParticles
+      tsParticles.load("tsparticles", {
+        "fullScreen": {
+          "enable": false,
+          "zIndex": -1
+        },
+        "background": {
+          "color": {
+            "value": "transparent"
+          }
+        },
+        "fpsLimit": 60,
+        "particles": {
+          "number": {
+            "value": 60,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": ["#6366f1", "#8b5cf6", "#a855f7", "#10b981"]
+          },
+          "shape": {
+            "type": "circle"
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+              "enable": true,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": true,
+              "speed": 2,
+              "size_min": 0.3,
+              "sync": false
+            }
+          },
+          "links": {
+            "enable": true,
+            "distance": 150,
+            "color": "#6366f1",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 1,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": true,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    </script>
+  </body>
 </html>
